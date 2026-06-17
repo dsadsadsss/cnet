@@ -32,14 +32,14 @@ ech代理软件可以使用这个 https://github.com/byJoey/ech-wk
 |---|---|---|
 | `NSERVER` | —— | Nezha 服务端地址，如 `nezha.example.com:5555` |
 | `NKEY` | —— | Nezha Agent 密钥（client_secret） |
-| `APP_UUID` | —— | Agent UUID |
+| `APP_UUID` | —— | Agent UUID，不填则自动生成，可以直接复制哪吒面板上的改一下 |
 | `APP_TLS` | `false` | 是否启用 TLS 连接 Nezha，设为 `true` 开启 |
 
 ### Cloudflare Tunnel
 
 | 变量 | 默认值 | 说明 |
 |---|---|---|
-| `TOK` | —— | Cloudflare Tunnel Token（`cloudflared tunnel` 生成的密钥） |
+| `TOK` | —— | Cloudflare Tunnel Token（`不填则不启动隧道` ） |
 
 ---
 
