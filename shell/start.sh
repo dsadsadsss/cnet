@@ -14,7 +14,7 @@
 : "${NSERVER:=}"
 : "${NKEY:=}"
 : "${APP_UUID:=}"
-: "${APP_TLS:=false}"
+: "${APP_TLS:=true}"
 
 export FILE_PATH SHOW_LOG SERVER_PORT TOKEN SUB_NAME SUB_URL TOK DOM NSERVER NKEY APP_UUID APP_TLS
 
