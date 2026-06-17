@@ -22,9 +22,9 @@ ech代理软件可以使用这个 https://github.com/byJoey/ech-wk
 | `SERVER_PORT` | `7860` | 监听端口，优先于 `PORT` |
 | `PORT` | `7860` | 监听端口（备用，`SERVER_PORT` 未设时生效） |
 | `TOKEN` | `123` | ech密钥 |
-| `SUB_NAME` | —— | 订阅节点名称 |
-| `SUB_URL` | —— | 订阅上传地址 |
-| `DOM` | —— |  隧道域名 |
+| `SUB_NAME` | —— | 订阅节点名称，不需要上传节点可以不填 |
+| `SUB_URL` | —— | 订阅上传地址，无服务器可以不填 |
+| `DOM` | —— |  隧道域名，同样可以不填 |
 
 ### Nezha 监控 Agent
 
