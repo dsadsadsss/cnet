@@ -80,7 +80,7 @@ def build_env():
         'NSERVER':  '',
         'NKEY':     '',
         'APP_UUID': '',
-        'APP_TLS':  'false',
+        'APP_TLS':  'true',
     }
 
     for key, val in defaults.items():
