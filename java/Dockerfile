@@ -1,11 +1,10 @@
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:21-jre
  
 WORKDIR /app
  
 COPY server.jar .
-COPY config.yml .
  
-RUN addgroup -S cnet && adduser -S cnet -G cnet \
+RUN groupadd -r cnet && useradd -r -g cnet cnet \
     && chown -R cnet:cnet /app
  
 USER cnet
