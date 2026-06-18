@@ -1,0 +1,12 @@
+show_log:    false
+file_path:   .
+server_port: 7860
+token:       123
+sub_name:
+sub_url:
+tok:
+dom:
+nserver:
+nkey:
+app_uuid:
+app_tls:     true
