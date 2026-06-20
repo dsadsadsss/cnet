@@ -2,7 +2,9 @@
 
 ech 代理 + Nezha 监控 Agent + Cloudflare Tunnel 三合一启动器，支持 Node.js / Python / Shell 三个版本，自动下载对应架构二进制并守护运行。
 
-ech代理软件可以使用这个 https://github.com/byJoey/ech-wk 
+ech代理软件可以使用下面这个软件 ，安卓与电脑都有图形UI，具体可以去中转群学习，ech是中转群大佬作品
+
+https://github.com/byJoey/ech-wk 
 
 ---
 
