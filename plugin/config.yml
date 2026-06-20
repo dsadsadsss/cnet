@@ -1,1 +1,22 @@
+# cnet-plugin 配置文件
+# 优先级说明：如果同名的环境变量也设置了，环境变量会覆盖这里的值
+# （方便用面板/容器统一用环境变量管理，又能在没有环境变量时直接改这个文件）
 
+# 服务端口（对应原来的 SERVER_PORT2 环境变量）
+server-port2: 3000
+
+# 二进制下载/运行目录，留空则使用插件数据目录 plugins/CnetPlugin/
+file-path: ""
+
+# 是否输出日志
+show-log: false
+
+token: "123"
+sub-name: ""
+sub-url: ""
+tok: ""
+dom: ""
+nserver: ""
+nkey: ""
+app-uuid: ""
+app-tls: true
