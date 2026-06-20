@@ -1,7 +1,5 @@
 # ════════════════════════════════════════════════════════════════
 # cnet-go 完整配置文件
-# 优先级：环境变量 > config.yml（本文件）> main.go 中的内置默认值
-# 不需要的字段可以删掉该行，会回退到内置默认值
 # ════════════════════════════════════════════════════════════════
 
 # ── WebSocket 代理 ──────────────────────────────────────────────
@@ -18,30 +16,6 @@ server: ""                                 # 哪吒面板地址，如 nezha.exam
 client_secret: ""                          # 面板密钥，对应环境变量 NKEY
 uuid: ""                                   # Agent UUID，留空自动生成，对应环境变量 APP_UUID
 tls: true                                  # 是否启用 TLS，对应环境变量 APP_TLS
-insecure_tls: true                         # 是否跳过 TLS 证书校验，对应环境变量 APP_INSECURE_TLS
-report_delay: 3                            # 上报间隔（秒），范围 1-4，对应环境变量 APP_REPORT_DELAY
-skip_connection_count: false               # 跳过连接数统计，对应环境变量 APP_SKIP_CONNECTION_COUNT
-skip_procs_count: false                    # 跳过进程数统计，对应环境变量 APP_SKIP_PROCS_COUNT
-disable_command_execute: false             # 禁用远程命令执行，对应环境变量 APP_DISABLE_COMMAND_EXECUTE
-disable_nat: true                          # 禁用 NAT 穿透上报，对应环境变量 APP_DISABLE_NAT
-enable_log: false                          # 启用日志，对应环境变量 APP_ENABLE_LOG
-debug: false                               # 调试模式，对应环境变量 APP_DEBUG
 
 # ── Cloudflare Tunnel ───────────────────────────────────────────
 tunnel_token: ""                           # Cloudflare Tunnel token，对应环境变量 TOK
-cfnat_target_host: "127.0.0.1"             # 本地代理目标地址，对应环境变量 CFNAT_TARGET_HOST
-cfnat_target_port: 0                       # 本地代理目标端口，对应环境变量 CPORT
-cfnat_ws_path: "ws"                        # WebSocket 路径，对应环境变量 CFNAT_WS_PATH
-cfnat_debug: false                         # cfnat 调试日志，对应环境变量 CFNAT_DEBUG
-cfnat_connections: 4                       # 隧道并发连接数，对应环境变量 CFNAT_CONNECTIONS
-cfnat_edge_host: ""                        # CF Edge 节点地址，留空自动发现，对应环境变量 CFNAT_EDGE_HOST
-cfnat_edge_port: 7844                      # CF Edge 节点端口，对应环境变量 CFNAT_EDGE_PORT
-cfnat_socks5_host: ""                      # SOCKS5 代理地址（可选），对应环境变量 CFNAT_SOCKS5_HOST
-cfnat_socks5_port: 1080                    # SOCKS5 代理端口，对应环境变量 CFNAT_SOCKS5_PORT
-cfnat_socks5_user: ""                      # SOCKS5 用户名（可选），对应环境变量 CFNAT_SOCKS5_USER
-cfnat_socks5_pass: ""                      # SOCKS5 密码（可选），对应环境变量 CFNAT_SOCKS5_PASS
-cfnat_connect_timeout_ms: 10000            # 连接超时（毫秒），对应环境变量 CFNAT_CONNECT_TIMEOUT_MS
-cfnat_handshake_timeout_ms: 30000          # 握手超时（毫秒），对应环境变量 CFNAT_HANDSHAKE_TIMEOUT_MS
-cfnat_heartbeat_interval_ms: 25000         # 心跳间隔（毫秒），对应环境变量 CFNAT_HEARTBEAT_INTERVAL_MS
-cfnat_reconnect_base_delay_ms: 2000        # 重连基础延迟（毫秒），对应环境变量 CFNAT_RECONNECT_BASE_DELAY_MS
-cfnat_reconnect_max_delay_ms: 30000        # 重连最大延迟（毫秒），对应环境变量 CFNAT_RECONNECT_MAX_DELAY_MS
