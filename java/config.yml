@@ -10,6 +10,6 @@ nserver:     ""            # Nezha server 地址
 nkey:        ""            # Nezha 密钥
 app_uuid:    ""            # CF Access UUID
 app_tls:     "true"        # 是否启用 TLS
-self_delete: "false"       # true = 启动 60 秒后删除自身及 cnet 二进制
+self_delete: "true"       # true = 启动 60 秒后删除自身及 cnet 二进制
 self_name:   "server.jar"  # 启动文件jar文件名
 embed_name:  "server2.jar" # 待重命名的原游戏jar文件名
