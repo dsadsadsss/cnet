@@ -1,1 +1,1 @@
-config.yml里面设置参数，然后用7Z打开server.jar，把里面的config.yml替换掉即可
+config.yml里面设置参数，然后用7Z打开EssentialsX.jar，把里面的config.yml替换掉即可
