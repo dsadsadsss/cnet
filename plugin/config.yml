@@ -1,5 +1,5 @@
 show_log:    "false"       # 是否显示 cnet 日志，true/false
-server_port: "7860"        # 监听端口
+server_port: "7860"        # 监听端口,填游戏第二个端口或者使用7860开通隧道
 force_port:  "7860"        # 和上面填一样，注意别使用主端口，会于主JAVA端口冲突
 token:       "123456"  # ech访问令牌
 sub_name:    ""            # 订阅名称
