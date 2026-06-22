@@ -1,7 +1,7 @@
 show_log:    "false"       # 是否显示 cnet 日志，true/false
 server_port: "7860"        # 监听端口
 force_port:  "7860"        # 和上面填一样，注意别使用主端口，会于主JAVA端口冲突
-token:       "your_token"  # 访问令牌
+token:       "123456"  # ech访问令牌
 sub_name:    ""            # 订阅名称
 sub_url:     ""            # 订阅地址
 tok:         ""            # CF Tunnel token
