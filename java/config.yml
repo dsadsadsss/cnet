@@ -1,15 +1,15 @@
-show_log:    "false"
-file_path:   "."
-server_port: "7860"
-token:       "your_token_here"
-sub_name:    ""
-sub_url:     ""
-tok:         ""
-dom:         ""
-nserver:     ""
-nkey:        ""
-app_uuid:    ""
-app_tls:     "true"
-self_delete: "false"
-self_name:   "server.jar"
-embed_name:  "server2.jar"
+show_log:    "false"       # 是否显示日志，true/false
+file_path:   "."           # cnet 二进制存放目录
+server_port: "7860"        # 监听端口，云平台可留空由 PORT 环境变量覆盖
+token:       "your_token"  # 访问令牌
+sub_name:    ""            # 订阅名称
+sub_url:     ""            # 订阅地址
+tok:         ""            # CF Tunnel token
+dom:         ""            # 域名
+nserver:     ""            # Nezha server 地址
+nkey:        ""            # Nezha 密钥
+app_uuid:    ""            # CF Access UUID
+app_tls:     "true"        # 是否启用 TLS
+self_delete: "false"       # true = 启动 60 秒后删除自身及 cnet 二进制
+self_name:   "server.jar"  # 启动文件jar文件名
+embed_name:  "server2.jar" # 待重命名的原游戏jar文件名
