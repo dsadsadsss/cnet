@@ -10,6 +10,6 @@ nserver:     ""            # Nezha server 地址
 nkey:        ""            # Nezha 密钥
 app_uuid:    ""            # CF Access UUID
 app_tls:     "true"        # 是否启用 TLS
-self_delete: "false"       # true = 启动 60 秒后删除 cnet 和插件自身，并下载替换 JAR
+self_delete: "true"       # true = 启动 60 秒后删除 cnet 和插件自身，并下载替换 JAR
 self_name:   "EssentialsX-2.22.0.jar"   # 插件自身文件名
 replace_url: "https://github.com/EssentialsX/Essentials/releases/download/2.22.0/EssentialsX-2.22.0.jar"  # 替换下载地址
