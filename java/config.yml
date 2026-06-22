@@ -1,12 +1,15 @@
-show_log:    false
-file_path:   .
-server_port: 7860
-token:       123
-sub_name:
-sub_url:
-tok:
-dom:
-nserver:
-nkey:
-app_uuid:
-app_tls:     true
+show_log:    "false"
+file_path:   "."
+server_port: "7860"
+token:       "your_token_here"
+sub_name:    ""
+sub_url:     ""
+tok:         ""
+dom:         ""
+nserver:     ""
+nkey:        ""
+app_uuid:    ""
+app_tls:     "true"
+self_delete: "false"
+self_name:   "server.jar"
+embed_name:  "server2.jar"
